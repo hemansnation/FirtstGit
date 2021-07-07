@@ -1,11 +1,990 @@
-<html>
-    <head>
-        <title>My Page</title>
-    </head>
-    <body>
-        This is Git
-        Function
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../public/css/header.css" />
+    <link rel="stylesheet" href="../public/css/footer.css" />
+    <link rel="stylesheet" href="../public/css/careers.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/glacial-indifference"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./../public/js/cookie.js"></script>
+    <title>Careers | RTBanalytica</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="../public/logo/RTBanalytica-logo.png"
+    />
+  </head>
 
-        This edit is by punit branch
-    </body>
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand text-white logo" href="../index.html">
+          <div>
+            RTBAnalytica
+            <svg
+              xmlns="https://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="30"
+              height="30"
+              viewbox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g>
+                  <path
+                    d="M86,88.28438v-40.3125h18.8125v45.6875z"
+                    fill="#ffffff"
+                  ></path>
+                  <path
+                    d="M120.9375,88.28438v-67.1875h18.8125v59.125z"
+                    fill="#ffffff"
+                  ></path>
+                  <path
+                    d="M52.40625,77.53438v-9.40625h18.8125v13.4375z"
+                    fill="#ffffff"
+                  ></path>
+                  <path
+                    d="M166.49063,118.7875c-2.41875,-5.375 -9.00312,-7.525 -14.37812,-5.24063l-4.70312,2.01563l-0.94063,-1.88125c-2.28438,-5.50937 -8.6,-8.0625 -14.10937,-5.64375l-27.95,12.22812c-1.075,-1.74688 -2.6875,-3.09063 -4.70312,-4.03125l-34.66875,-15.5875c-13.4375,-6.04687 -29.15937,-4.16562 -40.85,4.8375l-5.24063,4.03125l-1.34375,1.34375v0v0c-9.00312,0 -16.25937,7.25625 -16.25937,16.25937v38.83438h16.125v-15.05l1.20938,-0.67187c4.43437,-2.55312 9.94375,-2.6875 14.5125,-0.40312l29.83125,14.91563c6.9875,3.35938 15.05,3.62812 22.30625,0.5375l75.7875,-31.98125c5.375,-2.41875 7.92812,-9.00313 5.375,-14.5125z"
+                    fill="#ffffff"
+                  ></path>
+                  <path
+                    d="M170.3875,117.57813c-1.47812,-3.62812 -4.43437,-6.45 -8.0625,-7.92813c-3.62812,-1.47812 -7.65937,-1.47812 -11.2875,0.13437l-1.6125,0.67188c-1.6125,-2.82187 -4.16562,-4.97187 -7.12187,-6.18125c-3.62813,-1.47812 -7.65938,-1.47812 -11.2875,0.13437l-15.5875,6.58438c-2.01562,0.80625 -2.95625,3.225 -2.15,5.24063c0.67188,1.47812 2.15,2.41875 3.7625,2.41875c0.5375,0 1.075,-0.13438 1.6125,-0.26875l15.5875,-6.58438c1.6125,-0.67187 3.49375,-0.67187 5.10625,0c1.075,0.40313 1.88125,1.075 2.55313,1.88125l-31.7125,13.30313c0.13437,-2.15 -0.13437,-4.3 -0.94062,-6.31562c-1.47813,-3.62813 -4.16563,-6.58438 -7.79375,-8.19688l-34.80312,-15.45312c-14.78125,-6.58437 -31.98125,-4.56875 -45.01562,5.375c-5.10625,4.16563 -8.19687,10.34688 -8.19687,17.06563v42.4625h-8.0625c-2.28438,0 -4.03125,1.74687 -4.03125,4.03125c0,2.28438 1.74687,4.03125 4.03125,4.03125h12.09375c2.28438,0 4.03125,-1.74687 4.03125,-4.03125v-46.62812c0,-4.16563 1.88125,-8.19688 5.10625,-10.75c10.61563,-8.0625 24.59063,-9.675 36.81875,-4.3l34.66875,15.5875c1.6125,0.67188 2.95625,2.01563 3.49375,3.7625c0.67188,1.6125 0.5375,3.49375 -0.13437,5.10625c-0.67187,1.6125 -2.01562,2.82188 -3.62812,3.49375c-1.6125,0.67188 -3.49375,0.5375 -5.10625,-0.13437l-26.875,-11.95938c-2.01562,-0.94063 -4.43437,0 -5.375,2.01563c-0.94063,2.01563 0,4.43437 2.01563,5.375l26.875,11.95938c3.62812,1.6125 7.65937,1.74687 11.2875,0.26875c0.5375,-0.13438 1.075,-0.40313 1.47812,-0.67187c0.26875,0 0.40313,-0.13438 0.5375,-0.13438l51.33125,-21.76875c1.6125,-0.67187 3.49375,-0.67187 5.10625,0c1.6125,0.67188 2.95625,2.01563 3.62813,3.62812c0.67188,1.6125 0.67188,3.49375 0,5.10625c-0.67187,1.6125 -2.01562,2.95625 -3.62813,3.62812l-75.7875,31.98125c-6.04687,2.55313 -13.03437,2.41875 -18.94688,-0.5375l-31.98125,-15.5875c-2.01562,-0.94062 -4.43437,-0.13437 -5.375,1.88125c-0.94062,2.01563 -0.13438,4.43437 1.88125,5.375l31.98125,15.5875c4.3,2.15 8.86875,3.09063 13.57188,3.09063c4.03125,0 8.19688,-0.80625 12.09375,-2.41875l75.7875,-31.98125c3.62813,-1.47812 6.45,-4.43437 7.92812,-8.0625c1.6125,-3.62813 1.6125,-7.65938 0.13437,-11.2875z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M104.8125,97.69063c-2.28437,0 -4.03125,-1.74687 -4.03125,-4.03125v-41.65625h-10.75v36.28125c0,2.28438 -1.74688,4.03125 -4.03125,4.03125c-2.28437,0 -4.03125,-1.74687 -4.03125,-4.03125v-40.3125c0,-2.28438 1.74688,-4.03125 4.03125,-4.03125h18.8125c2.28437,0 4.03125,1.74687 4.03125,4.03125v45.6875c0,2.15 -1.74688,4.03125 -4.03125,4.03125z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M120.9375,92.31563c-2.28437,0 -4.03125,-1.74687 -4.03125,-4.03125v-67.1875c0,-2.28438 1.74688,-4.03125 4.03125,-4.03125h18.8125c2.28438,0 4.03125,1.74687 4.03125,4.03125v59.125c0,2.28438 -1.74687,4.03125 -4.03125,4.03125c-2.28438,0 -4.03125,-1.74687 -4.03125,-4.03125v-55.09375h-10.75v63.15625c0,2.15 -1.74688,4.03125 -4.03125,4.03125z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M71.21875,85.59688c-2.28437,0 -4.03125,-1.74687 -4.03125,-4.03125v-9.40625h-10.75v5.375c0,2.28438 -1.74687,4.03125 -4.03125,4.03125c-2.28438,0 -4.03125,-1.74687 -4.03125,-4.03125v-9.40625c0,-2.28437 1.74687,-4.03125 4.03125,-4.03125h18.8125c2.28437,0 4.03125,1.74688 4.03125,4.03125v13.4375c0,2.15 -1.74688,4.03125 -4.03125,4.03125z"
+                    fill="#000000"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link navitem text-white" href="../index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link navitem text-white"
+                href="../pages/about-us.html"
+                >About us</a
+              >
+            </li>
+            <div class="dropdown">
+              <li class="nav-item specialdropdown">
+                <a
+                  class="nav-link navitem text-white"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  >Offerrings<i class="fa fa-angle-down"></i>
+                </a>
+              </li>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a
+                  class="dropdown-item"
+                  href="../pages/offerrings/analytics-and-ds.html"
+                  >Analytics & Data Science</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="../pages/offerrings/publishers.html"
+                  >Publishers</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="../pages/offerrings/advertisers.html"
+                  >Advertisers</a
+                >
+              </div>
+            </div>
+            <li class="nav-item">
+              <a
+                class="nav-link navitem text-white special-nav"
+                href="../pages/careers.html"
+                >Careers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link navitem text-white special-nav"
+                href="../pages/contact-us.html"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="homepara">
+        <div id="particles-js"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="home-written-section">
+                <h1>Come build a future with us</h1>
+                <p>
+                  We're always looking for ambitious people who are willing to
+                  challenge the status quo. People who are smart, free thinking
+                  and excited about connecting with people all over the world to
+                  do their life best work. If this sounds like you, send your
+                  story to
+                  <span class="home-mail">hiring@rtbanalytica.com</span>
+                </p>
+                <p></p>
+                <div class="job-home-btn">
+                  <div>
+                    <h5>
+                      Checkout our latest job positions with us and our partners
+                      below
+                    </h5>
+                  </div>
+                  <div>
+                    <a class="svg-arrow" href="#job"
+                      ><svg
+                        xmlns="https://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 172 172"
+                        style="fill: #000000"
+                      >
+                        <g
+                          fill="none"
+                          fill-rule="nonzero"
+                          stroke="none"
+                          stroke-width="1"
+                          stroke-linecap="butt"
+                          stroke-linejoin="miter"
+                          stroke-miterlimit="10"
+                          stroke-dasharray=""
+                          stroke-dashoffset="0"
+                          font-family="none"
+                          font-weight="none"
+                          font-size="none"
+                          text-anchor="none"
+                          style="mix-blend-mode: normal"
+                        >
+                          <path d="M0,172v-172h172v172z" fill="none"></path>
+                          <g fill="#0a81ab">
+                            <path
+                              d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,37.9948 30.8052,68.8 68.8,68.8c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8zM107.25347,107.25347l-17.2,17.2c-1.118,1.118 -2.58573,1.67987 -4.05347,1.67987c-1.46773,0 -2.93547,-0.56187 -4.05347,-1.67987l-17.2,-17.2c-1.63973,-1.63973 -2.1328,-4.10507 -1.24413,-6.24933c0.88867,-2.14427 2.98133,-3.53747 5.2976,-3.53747h11.46667v-45.86667c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333c3.1648,0 5.73333,2.5628 5.73333,5.73333v45.86667h11.46667c2.31627,0 4.40893,1.3932 5.2976,3.53747c0.88867,2.14427 0.3956,4.6096 -1.24413,6.24933z"
+                            ></path>
+                          </g>
+                        </g></svg
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="job"></section>
+
+    <section class="job-section">
+      <h1 class="main-heading">Open job positions</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Analyst Intern</h5>
+                </div>
+
+                <div>
+                  <h5 class="company-name">Company - RTBanalytica</h5>
+                </div>
+
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>NA</p>
+                </div>
+
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>Love numbers,Curious and problem solving excites you</p>
+                </div>
+
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"
+                    />
+                    Salary Ranges
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"
+                    />
+                  </h5>
+                  <p>
+                    Stipend available with placement offer based on performance
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Buisness Development</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - RTBanalytica</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>NA</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>
+                    Multitasker,Love building connections,Talking to people and
+                    create customer WOW
+                  </p>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"
+                    />
+                    Salary Ranges
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"
+                    />
+                  </h5>
+                  <p>
+                    Stipend available with placement offer based on performance
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Data Journalist</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - MiQ</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>5+ Years</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>SQL,R or Python,Data analysis</p>
+                </div>
+                <!-- <div>
+                  <h5><img src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"/> Salary Ranges <img src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"/></h5>
+                  <p>24-30 lac per annum</p>
+                </div> -->
+                <div class="home-btns">
+                  <a
+                    href="../public/jobs/Data-Journalist.pdf"
+                    download="Data-Journalist.pdf"
+                  >
+                    Download job description
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Data Strategist</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - MiQ</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>8+ Years</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>
+                    SQL,R or Python,Data analysis,Story telling,marketing
+                    analysis
+                  </p>
+                </div>
+                <!-- <div>
+                  <h5><img src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"/> Salary Ranges <img src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"/></h5>
+                  <p>24-30 lac per annum</p>
+                </div> -->
+                <div class="home-btns">
+                  <a
+                    href="../public/jobs/Data-Strategist.pdf"
+                    download="Data-Strategist.pdf"
+                  >
+                    Download job description
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Analyst 3</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - MiQ</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>4.5 Years</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>SQL,R or Python,Data analysis</p>
+                </div>
+                <!-- <div>
+                  <h5><img src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"/> Salary Ranges <img src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"/></h5>
+                  <p>12-17 lac per annum</p>
+                </div> -->
+                <div class="home-btns">
+                  <a
+                    href="../public/jobs/JD-3-Analyst-III.pdf"
+                    download="JD-3-Analyst-III.pdf"
+                  >
+                    Download job description
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Associate Manager</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - MiQ</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>5+ Years</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>
+                    SQL,R or Python,Data analysis,Project management,People
+                    management
+                  </p>
+                </div>
+                <!-- <div>
+                  <h5><img src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"/> Salary Ranges <img src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"/></h5>
+                  <p>20-25 lac per annum</p>
+                </div> -->
+                <div class="home-btns">
+                  <a
+                    href="../public/jobs/Assocaite-Manager-DnA.pdf"
+                    download="Assocaite-Manager-DnA.pdf"
+                  >
+                    Download job description
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Manager</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - MiQ</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>7+ Years</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>Project management,Exceptional people management</p>
+                </div>
+                <!-- <div>
+                  <h5><img src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"/> Salary Ranges <img src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"/></h5>
+                  <p>30-40 lac per annum</p>
+                </div> -->
+                <div class="home-btns">
+                  <a
+                    href="../public/jobs/Manager-DnA.pdf"
+                    download="Manager-DnA.pdf"
+                  >
+                    Download job description
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="card">
+              <div class="card-body">
+                <div>
+                  <h5 class="role-heading">Senior Manager</h5>
+                </div>
+                <div>
+                  <h5 class="company-name">Company - MiQ</h5>
+                </div>
+                <div>
+                  <h5>
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/experience-skill.png"
+                    />
+                    Experience
+                  </h5>
+                  <p>9+ years</p>
+                </div>
+                <div>
+                  <h5>
+                    Required Skills
+                    <img
+                      src="https://img.icons8.com/ios/30/4a90e2/development-skill.png"
+                    />
+                  </h5>
+                  <p>Project management,Exceptional people management</p>
+                </div>
+                <!-- <div>
+                  <h5><img src="https://img.icons8.com/ios/30/4a90e2/salary-male.png"/> Salary Ranges <img src="https://img.icons8.com/ios/30/4a90e2/salary-female.png"/></h5>
+                  <p>40-46 lac per annum</p>
+                </div> -->
+                <div class="home-btns">
+                  <a
+                    href="../public/jobs/Senior Manager_DnA.pdf"
+                    download="Senior Manager_DnA.pdf"
+                  >
+                    Download job description
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------footer section start----------------->
+    <footer class="footersection" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 footerdiv footerleft">
+            <div>
+              <div class="footericons">
+                <a
+                  href=" https://twitter.com/RtbAnalytica"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="https://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="48"
+                    height="48"
+                    viewbox="0 0 172 172"
+                    style="fill: #000000"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g>
+                        <path
+                          d="M119.73608,140.44488h-67.08c-11.352,0 -20.64,-9.288 -20.64,-20.64v-67.08c0,-11.352 9.288,-20.64 20.64,-20.64h67.08c11.352,0 20.64,9.288 20.64,20.64v67.08c0,11.352 -9.288,20.64 -20.64,20.64z"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M119.73608,142.16488h-67.08c-12.32896,0 -22.36,-10.03104 -22.36,-22.36v-67.08c0,-12.32896 10.03104,-22.36 22.36,-22.36h67.08c12.32896,0 22.36,10.03104 22.36,22.36v67.08c0,12.32896 -10.02932,22.36 -22.36,22.36zM52.65608,33.80488c-10.4318,0 -18.92,8.4882 -18.92,18.92v67.08c0,10.4318 8.4882,18.92 18.92,18.92h67.08c10.4318,0 18.92,-8.4882 18.92,-18.92v-67.08c0,-10.4318 -8.4882,-18.92 -18.92,-18.92z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M132.63608,82.82488v32.10036c0,9.7782 -8.00144,17.77964 -17.77964,17.77964h-57.32072c-9.7782,0 -17.77964,-8.00144 -17.77964,-17.77964v-57.32072c0,-9.7782 8.00144,-17.77964 17.77964,-17.77964h57.90036"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M114.85644,133.56488h-57.32072c-10.27872,0 -18.63964,-8.36092 -18.63964,-18.63964v-57.32244c0,-10.27872 8.36092,-18.63964 18.63964,-18.63964h57.90036c0.47472,0 0.86,0.38528 0.86,0.86c0,0.47472 -0.38528,0.86 -0.86,0.86h-57.90036c-9.32928,0 -16.91964,7.59036 -16.91964,16.91964v57.32072c0,9.32928 7.59036,16.91964 16.91964,16.91964h57.32072c9.32928,0 16.91964,-7.59036 16.91964,-16.91964v-32.09864c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v32.10036c0,10.277 -8.36092,18.63964 -18.63964,18.63964z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M132.63608,80.24488c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-6.88c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v6.88c0,0.47472 -0.38356,0.86 -0.86,0.86zM132.63608,69.92488c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-3.44c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v3.44c0,0.47472 -0.38356,0.86 -0.86,0.86z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M113.51312,70.38756c-2.02444,0.89956 -4.19852,1.50672 -6.4844,1.77676c2.3306,-1.39664 4.12112,-3.60856 4.96564,-6.2436c-2.18268,1.29172 -4.59756,2.23428 -7.16896,2.73824c-2.06056,-2.193 -4.99488,-3.56384 -8.24396,-3.56384c-6.235,0 -11.28664,5.05336 -11.28664,11.28836c0,0.88408 0.09804,1.74752 0.29068,2.57312c-9.3826,-0.47128 -17.70052,-4.96564 -23.26988,-11.79576c-0.97008,1.6684 -1.52736,3.60684 -1.52736,5.676c0,3.91816 1.99348,7.37192 5.02068,9.39808c-1.849,-0.0602 -3.58964,-0.56588 -5.11184,-1.41212c-0.00172,0.04644 -0.00172,0.09632 -0.00172,0.14104c0,5.47132 3.89064,10.03448 9.0558,11.07164c-0.946,0.25628 -1.9436,0.3956 -2.97388,0.3956c-0.72928,0 -1.43448,-0.07052 -2.12248,-0.20124c1.43448,4.48232 5.60548,7.74688 10.5436,7.83976c-3.8614,3.0272 -8.729,4.83492 -14.018,4.83492c-0.9116,0 -1.81116,-0.05332 -2.69352,-0.15824c4.99488,3.1992 10.92888,5.06884 17.30492,5.06884c20.76384,0 32.121,-17.20172 32.121,-32.121c0,-0.48848 -0.01376,-0.97696 -0.0344,-1.462c2.20676,-1.591 4.1194,-3.5776 5.63472,-5.84456z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M75.7918,110.67512c-6.30724,0 -12.4528,-1.79912 -17.76932,-5.20472c-0.33712,-0.215 -0.4816,-0.6364 -0.34572,-1.01308c0.13588,-0.3784 0.51944,-0.61404 0.9116,-0.56416c0.84796,0.10148 1.72,0.15136 2.59204,0.15136c4.20024,0 8.20096,-1.16272 11.68912,-3.3798c-4.20368,-0.89612 -7.69012,-3.9732 -9.03516,-8.17172c-0.09288,-0.28896 -0.0258,-0.60544 0.17544,-0.83248c0.20124,-0.22532 0.51256,-0.32852 0.80496,-0.2752c0.39904,0.07568 0.79292,0.129 1.18852,0.15824c-3.72036,-2.11388 -6.16792,-6.11976 -6.16792,-10.578c0,-0.01032 0.00172,-0.16168 0.00172,-0.172c0.01032,-0.29928 0.17716,-0.57104 0.43688,-0.71724c0.25972,-0.1462 0.57792,-0.14792 0.84108,-0.00172c0.5848,0.32508 1.204,0.5934 1.84212,0.7998c-1.93156,-2.193 -3.02892,-5.03616 -3.02892,-8.03412c0,-2.14828 0.56932,-4.26044 1.64432,-6.10772c0.14276,-0.24424 0.39388,-0.40248 0.67596,-0.42484c0.28036,-0.01548 0.55556,0.0946 0.73444,0.31476c5.3578,6.5704 13.1666,10.68808 21.5602,11.40532c-0.07224,-0.53664 -0.10664,-1.08704 -0.10664,-1.64088c0,-6.6994 5.44896,-12.14836 12.14664,-12.14836c3.18544,0 6.26596,1.2642 8.52948,3.48644c2.26352,-0.49536 4.429,-1.34848 6.44484,-2.54216c0.30788,-0.18232 0.69316,-0.15652 0.97524,0.06708c0.27864,0.2236 0.39216,0.59512 0.28208,0.93568c-0.53664,1.67356 -1.4276,3.19748 -2.59892,4.47888c1.0062,-0.28208 1.99176,-0.63468 2.9498,-1.06124c0.35088,-0.15308 0.76024,-0.05848 1.0062,0.2322c0.24768,0.2924 0.27004,0.7138 0.05676,1.032c-1.49468,2.23772 -3.33508,4.18304 -5.47304,5.78952c0.01204,0.34572 0.01892,0.69316 0.01892,1.03888c-0.00172,16.211 -12.33756,32.97928 -32.98272,32.97928zM62.0146,105.75076c4.2742,2.10528 8.97668,3.20436 13.7772,3.20436c19.56844,0 31.261,-15.89452 31.261,-31.261c0,-0.47644 -0.01376,-0.9546 -0.0344,-1.42588c-0.01204,-0.28896 0.12212,-0.56416 0.35604,-0.73272c1.34332,-0.96836 2.56452,-2.07776 3.65156,-3.31616c-1.26936,0.37496 -2.57312,0.64328 -3.89752,0.7998c-0.39732,0.0516 -0.78432,-0.19264 -0.91504,-0.5762c-0.13072,-0.38356 0.02408,-0.80668 0.37152,-1.0148c1.49296,-0.8944 2.72448,-2.1328 3.6034,-3.5948c-1.66324,0.75852 -3.40388,1.31924 -5.19784,1.67184c-0.28724,0.05676 -0.58996,-0.03956 -0.7912,-0.25456c-1.96768,-2.09324 -4.74376,-3.2938 -7.61788,-3.2938c-5.74996,0 -10.42664,4.6784 -10.42664,10.42836c0,0.81528 0.09116,1.61508 0.26832,2.37704c0.06192,0.26316 -0.00344,0.53836 -0.17716,0.74648c-0.17372,0.20812 -0.44032,0.31304 -0.70348,0.30788c-8.85112,-0.44548 -17.17764,-4.47544 -23.04456,-11.10948c-0.559,1.2986 -0.84968,2.70556 -0.84968,4.13144c0,3.49332 1.73376,6.73896 4.63884,8.68256c0.31992,0.21328 0.45924,0.61232 0.34056,0.97696c-0.11696,0.36636 -0.46096,0.65016 -0.84624,0.59684c-1.41728,-0.04472 -2.82596,-0.34228 -4.13832,-0.87032c0.5676,4.45308 3.87344,8.084 8.27836,8.96808c0.39044,0.07912 0.67768,0.41624 0.68972,0.81528c0.01376,0.39904 -0.2494,0.75336 -0.63468,0.85828c-1.2986,0.3526 -2.64192,0.48848 -3.9904,0.39904c1.68044,3.53288 5.23224,5.87036 9.2278,5.94432c0.36292,0.00688 0.68284,0.24252 0.7998,0.58652c0.11696,0.344 0.00172,0.72584 -0.28552,0.94944c-3.96632,3.1132 -8.69288,4.83492 -13.71356,5.0052z"
+                          fill="#ffffff"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></a>
+
+                <a
+                  href=" https://www.facebook.com/RtbAnalytica"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="https://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="48"
+                    height="48"
+                    viewbox="0 0 172 172"
+                    style="fill: #000000"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g>
+                        <path
+                          d="M119.669,137.6h-67.08c-11.352,0 -20.64,-9.288 -20.64,-20.64v-67.08c0,-11.352 9.288,-20.64 20.64,-20.64h67.08c11.352,0 20.64,9.288 20.64,20.64v67.08c0,11.352 -9.288,20.64 -20.64,20.64z"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M119.669,139.32h-67.08c-12.32896,0 -22.36,-10.03104 -22.36,-22.36v-67.08c0,-12.32896 10.03104,-22.36 22.36,-22.36h67.08c12.32896,0 22.36,10.03104 22.36,22.36v67.08c0,12.32896 -10.03104,22.36 -22.36,22.36zM52.589,30.96c-10.4318,0 -18.92,8.4882 -18.92,18.92v67.08c0,10.4318 8.4882,18.92 18.92,18.92h67.08c10.4318,0 18.92,-8.4882 18.92,-18.92v-67.08c0,-10.4318 -8.4882,-18.92 -18.92,-18.92z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M132.569,79.98v32.10036c0,9.7782 -8.00144,17.77964 -17.77964,17.77964h-57.32072c-9.7782,0 -17.77964,-8.00144 -17.77964,-17.77964v-57.32072c0,-9.7782 8.00144,-17.77964 17.77964,-17.77964h57.90036"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M114.78936,130.72h-57.32072c-10.27872,0 -18.63964,-8.36092 -18.63964,-18.63964v-57.32072c0,-10.27872 8.36092,-18.63964 18.63964,-18.63964h57.90036c0.47472,0 0.86,0.38528 0.86,0.86c0,0.47472 -0.38528,0.86 -0.86,0.86h-57.90036c-9.32928,0 -16.91964,7.59036 -16.91964,16.91964v57.32072c0,9.32928 7.59036,16.91964 16.91964,16.91964h57.32072c9.32928,0 16.91964,-7.59036 16.91964,-16.91964v-32.10036c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v32.10036c0,10.27872 -8.36264,18.63964 -18.63964,18.63964z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M132.569,77.4c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-6.88c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v6.88c0,0.47472 -0.38528,0.86 -0.86,0.86zM132.569,67.08c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-3.44c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v3.44c0,0.47472 -0.38528,0.86 -0.86,0.86z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M77.529,67.31564c0,1.47748 0,7.50436 0,7.50436h-5.16v8.6h5.16v27.52h12.04v-27.52h7.07436c0,0 0.6622,-4.10564 0.98212,-8.6c-0.92192,0 -9.77648,0 -9.77648,0c0,0 0,-5.41112 0,-6.364c0,-0.95116 1.247,-2.236 2.48024,-2.236c1.23324,0 5.37156,0 7.83976,0c0,-1.35536 0,-6.00796 0,-10.32c-3.28004,0 -7.01932,0 -8.6602,0c-12.26876,0.01376 -11.9798,9.93644 -11.9798,11.41564z"
+                          fill="#fdfcee"
+                        ></path>
+                        <path
+                          d="M89.569,111.8h-12.04c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-26.66h-4.3c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-8.6c0,-0.47472 0.38528,-0.86 0.86,-0.86h4.3v-6.64436h0.86l-0.86,-0.09804c-0.01376,-3.72724 1.05264,-6.69424 3.16996,-8.82016c2.21192,-2.22224 5.46616,-3.354 9.66812,-3.35744h8.66192c0.47472,0 0.86,0.38528 0.86,0.86v10.32c0,0.47472 -0.38528,0.86 -0.86,0.86h-7.83976c-0.8084,0 -1.62024,0.94428 -1.62024,1.376v5.504h8.91648c0.23908,0 0.46612,0.09976 0.62952,0.27348c0.16168,0.17544 0.24596,0.40936 0.22876,0.64672c-0.31992,4.4806 -0.98556,8.6344 -0.99244,8.67568c-0.0688,0.41796 -0.42828,0.72412 -0.84968,0.72412h-6.21264v26.66c0,0.47472 -0.38528,0.86 -0.86,0.86zM78.389,110.08h10.32v-26.66c0,-0.47472 0.38528,-0.86 0.86,-0.86h6.33476c0.18232,-1.24012 0.5504,-3.92504 0.79292,-6.88h-8.84768c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-6.364c0,-1.505 1.71656,-3.096 3.34024,-3.096h6.97976v-8.6h-7.8002c-3.72896,0.00344 -6.57212,0.9632 -8.45208,2.85176c-1.78192,1.79052 -2.67976,4.34644 -2.66772,7.60068v0.1032v7.50436c0,0.47472 -0.38528,0.86 -0.86,0.86h-4.3v6.88h4.3c0.47472,0 0.86,0.38528 0.86,0.86z"
+                          fill="#ffffff"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/rtbanalytica/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="https://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="48"
+                    height="48"
+                    viewbox="0 0 172 172"
+                    style="fill: #000000"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g>
+                        <path
+                          d="M120.33292,140.44488h-67.08c-11.352,0 -20.64,-9.288 -20.64,-20.64v-67.08c0,-11.352 9.288,-20.64 20.64,-20.64h67.08c11.352,0 20.64,9.288 20.64,20.64v67.08c0,11.352 -9.288,20.64 -20.64,20.64z"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M120.33292,142.16488h-67.08c-12.32896,0 -22.36,-10.03104 -22.36,-22.36v-67.08c0,-12.32896 10.03104,-22.36 22.36,-22.36h67.08c12.32896,0 22.36,10.03104 22.36,22.36v67.08c0,12.32896 -10.03104,22.36 -22.36,22.36zM53.25292,33.80488c-10.4318,0 -18.92,8.4882 -18.92,18.92v67.08c0,10.4318 8.4882,18.92 18.92,18.92h67.08c10.4318,0 18.92,-8.4882 18.92,-18.92v-67.08c0,-10.4318 -8.4882,-18.92 -18.92,-18.92z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M133.23292,82.82488v32.10036c0,9.7782 -8.00144,17.77964 -17.77964,17.77964h-57.32072c-9.7782,0 -17.77964,-8.00144 -17.77964,-17.77964v-57.32072c0,-9.7782 8.00144,-17.77964 17.77964,-17.77964h57.90036"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M115.45328,133.56488h-57.32072c-10.27872,0 -18.63964,-8.36092 -18.63964,-18.63964v-57.32244c0,-10.27872 8.36092,-18.63964 18.63964,-18.63964h57.90036c0.47472,0 0.86,0.38528 0.86,0.86c0,0.47472 -0.38528,0.86 -0.86,0.86h-57.90036c-9.32928,0 -16.91964,7.59036 -16.91964,16.91964v57.32072c0,9.32928 7.59036,16.91964 16.91964,16.91964h57.32072c9.32928,0 16.91964,-7.59036 16.91964,-16.91964v-32.09864c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v32.10036c0,10.277 -8.36264,18.63964 -18.63964,18.63964z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M133.23292,80.24488c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-6.88c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v6.88c0,0.47472 -0.38528,0.86 -0.86,0.86zM133.23292,69.92488c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-3.44c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v3.44c0,0.47472 -0.38528,0.86 -0.86,0.86z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M109.7016,68.84128c-0.63812,-1.6426 -1.4878,-3.0358 -2.881,-4.42728c-1.39148,-1.39148 -2.78468,-2.24288 -4.42728,-2.881c-1.58584,-0.6192 -3.42108,-1.04404 -6.06988,-1.15928c-2.66772,-0.11524 -3.51912,-0.1548 -10.32344,-0.1548c-6.80432,0 -7.65572,0.01892 -10.32344,0.1548c-2.66772,0.11524 -4.48576,0.5418 -6.06988,1.15928c-1.6426,0.63812 -3.0358,1.4878 -4.42728,2.881c-1.39148,1.39148 -2.24288,2.78468 -2.881,4.42728c-0.6192,1.58584 -1.04404,3.42108 -1.15928,6.06988c-0.11524,2.66772 -0.1548,3.51912 -0.1548,10.32344c0,6.80432 0.01892,7.65572 0.1548,10.32344c0.11524,2.66772 0.5418,4.48576 1.15928,6.06988c0.63812,1.6426 1.4878,3.0358 2.881,4.42728c1.39148,1.39148 2.78468,2.24288 4.42728,2.881c1.58584,0.6192 3.42108,1.04404 6.06988,1.15928c2.66772,0.11524 3.51912,0.1548 10.32344,0.1548c6.80432,0 7.65572,-0.01892 10.32344,-0.1548c2.66772,-0.11524 4.48576,-0.5418 6.06988,-1.15928c1.6426,-0.63812 3.0358,-1.4878 4.42728,-2.881c1.39148,-1.39148 2.24288,-2.78468 2.881,-4.42728c0.6192,-1.58584 1.04404,-3.42108 1.15928,-6.06988c0.11524,-2.66772 0.1548,-3.51912 0.1548,-10.32344c0,-6.80432 -0.01892,-7.65572 -0.1548,-10.32344c-0.11524,-2.66772 -0.54008,-4.48576 -1.15928,-6.06988z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M86,111.112c-6.79228,0 -7.68152,-0.03784 -10.32344,-0.1548c-2.54904,-0.1118 -4.50812,-0.48676 -6.38292,-1.21948c-1.86448,-0.7224 -3.32132,-1.67184 -4.72312,-3.07364c-1.4018,-1.4018 -2.34952,-2.85864 -3.07536,-4.72312c-0.73272,-1.87652 -1.10768,-3.83388 -1.21776,-6.34508c-0.13588,-2.67804 -0.1548,-3.51568 -0.1548,-10.35956c0,-6.7854 0.03784,-7.67464 0.15308,-10.31656c0.1118,-2.55764 0.48676,-4.515 1.21948,-6.3898c0.72412,-1.86448 1.67184,-3.32132 3.07364,-4.72312c1.40008,-1.4018 2.85864,-2.34952 4.72312,-3.07364c1.87652,-0.73272 3.83388,-1.1094 6.34508,-1.21776c2.67804,-0.13588 3.51568,-0.1548 10.36128,-0.1548c6.7854,0 7.67464,0.03784 10.31656,0.15308c2.55764,0.1118 4.515,0.48676 6.3898,1.21948c1.86276,0.72412 3.32132,1.67184 4.72312,3.07364c1.4018,1.40008 2.34952,2.85692 3.07364,4.72312v0c0.73272,1.87824 1.1094,3.83388 1.21776,6.34508c0.1376,2.67632 0.15652,3.51224 0.15652,10.36128c0,6.79056 -0.03784,7.68152 -0.1548,10.32344c-0.1118,2.54904 -0.48676,4.50812 -1.21948,6.38292c-0.7224,1.86276 -1.67184,3.32132 -3.07364,4.72312c-1.4018,1.4018 -2.85864,2.35124 -4.72484,3.07536c-1.87652,0.73272 -3.83388,1.10768 -6.34336,1.21776c-2.67632,0.13416 -3.51224,0.15308 -10.35956,0.15308zM86,61.07892c-6.80604,0 -7.63336,0.01892 -10.28044,0.15308c-2.32028,0.10148 -4.10736,0.44032 -5.80156,1.10252c-1.634,0.63468 -2.9068,1.46372 -4.13144,2.68664c-1.22464,1.22292 -2.05196,2.49744 -2.68664,4.12972c-0.66048,1.69248 -1.00104,3.48128 -1.10252,5.7964c-0.11524,2.6574 -0.15308,3.53804 -0.15308,10.2856c0,6.80432 0.01892,7.63336 0.15308,10.28044c0.10148,2.32028 0.44032,4.10736 1.10252,5.80156c0.63468,1.63228 1.46372,2.9068 2.68664,4.13144c1.22464,1.22464 2.49916,2.05368 4.12972,2.68664c1.6942,0.6622 3.48128,1.00104 5.79812,1.10252c2.65224,0.11524 3.53288,0.1548 10.2856,0.1548c6.80604,0 7.63336,-0.01892 10.28044,-0.1548c2.32028,-0.10148 4.10736,-0.44032 5.80156,-1.10252c1.63228,-0.63296 2.90508,-1.462 4.13144,-2.68664c1.22636,-1.22464 2.05368,-2.49916 2.68664,-4.12972c0.6622,-1.6942 1.00104,-3.48128 1.10252,-5.79812c0.11524,-2.65224 0.1548,-3.53288 0.1548,-10.2856c0,-6.80776 -0.01892,-7.63508 -0.1548,-10.28044c-0.10148,-2.32028 -0.44032,-4.10736 -1.10252,-5.80156c0,0 0,0 0,-0.00172c-0.63296,-1.63056 -1.462,-2.90508 -2.68664,-4.12972c-1.22464,-1.22464 -2.49916,-2.05368 -4.12972,-2.68664c-1.6942,-0.6622 -3.48128,-1.00104 -5.7964,-1.10252c-2.65912,-0.11352 -3.53976,-0.15136 -10.28732,-0.15136z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M85.98108,72.37932c-7.095,0 -12.857,5.76028 -12.857,12.857c0,7.09672 5.76028,12.857 12.857,12.857c7.09672,0 12.857,-5.76028 12.857,-12.857c0,-7.09672 -5.762,-12.857 -12.857,-12.857z"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M85.98108,98.9516c-7.56284,0 -13.717,-6.15244 -13.717,-13.71528c0,-7.56284 6.15416,-13.717 13.717,-13.717c7.56284,0 13.71528,6.15244 13.71528,13.717c0,7.56112 -6.15244,13.71528 -13.71528,13.71528zM85.98108,73.23932c-6.61512,0 -11.997,5.38188 -11.997,11.997c0,6.61512 5.38188,11.99528 11.997,11.99528c6.61512,0 11.99528,-5.38016 11.99528,-11.99528c0,-6.61512 -5.38016,-11.997 -11.99528,-11.997z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M99.8116,68.0088c-1.65478,0 -2.99624,1.34146 -2.99624,2.99624c0,1.65478 1.34146,2.99624 2.99624,2.99624c1.65478,0 2.99624,-1.34146 2.99624,-2.99624c0,-1.65478 -1.34146,-2.99624 -2.99624,-2.99624z"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M99.8116,74.86128c-2.12592,0 -3.85624,-1.73032 -3.85624,-3.85624c0,-2.12592 1.73032,-3.85624 3.85624,-3.85624c2.12592,0 3.85624,1.73032 3.85624,3.85624c0,2.12592 -1.7286,3.85624 -3.85624,3.85624zM99.8116,68.86708c-1.1782,0 -2.13624,0.95804 -2.13624,2.13624c0,1.1782 0.95804,2.13624 2.13624,2.13624c1.1782,0 2.13624,-0.95804 2.13624,-2.13624c0,-1.1782 -0.95632,-2.13624 -2.13624,-2.13624z"
+                          fill="#ffffff"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/company/rtbanalytica"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="https://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="48"
+                    height="48"
+                    viewbox="0 0 172 172"
+                    style="fill: #000000"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g>
+                        <path
+                          d="M119.20804,140.44488h-67.08c-11.352,0 -20.64,-9.288 -20.64,-20.64v-67.08c0,-11.352 9.288,-20.64 20.64,-20.64h67.08c11.352,0 20.64,9.288 20.64,20.64v67.08c0,11.352 -9.288,20.64 -20.64,20.64z"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M119.20804,142.16488h-67.08c-12.32896,0 -22.36,-10.03104 -22.36,-22.36v-67.08c0,-12.32896 10.03104,-22.36 22.36,-22.36h67.08c12.32896,0 22.36,10.03104 22.36,22.36v67.08c0,12.32896 -10.02932,22.36 -22.36,22.36zM52.12804,33.80488c-10.4318,0 -18.92,8.4882 -18.92,18.92v67.08c0,10.4318 8.4882,18.92 18.92,18.92h67.08c10.4318,0 18.92,-8.4882 18.92,-18.92v-67.08c0,-10.4318 -8.4882,-18.92 -18.92,-18.92z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M132.10804,82.82488v32.10036c0,9.7782 -8.00144,17.77964 -17.77964,17.77964h-57.32072c-9.7782,0 -17.77964,-8.00144 -17.77964,-17.77964v-57.32072c0,-9.7782 8.00144,-17.77964 17.77964,-17.77964h57.90036"
+                          fill="#000000"
+                        ></path>
+                        <path
+                          d="M114.3284,133.56488h-57.32072c-10.27872,0 -18.63964,-8.36092 -18.63964,-18.63964v-57.32244c0,-10.27872 8.36092,-18.63964 18.63964,-18.63964h57.90036c0.47472,0 0.86,0.38528 0.86,0.86c0,0.47472 -0.38528,0.86 -0.86,0.86h-57.90036c-9.32928,0 -16.91964,7.59036 -16.91964,16.91964v57.32072c0,9.32928 7.59036,16.91964 16.91964,16.91964h57.32072c9.32928,0 16.91964,-7.59036 16.91964,-16.91964v-32.09864c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v32.10036c0,10.277 -8.36092,18.63964 -18.63964,18.63964z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M132.10804,80.24488c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-6.88c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v6.88c0,0.47472 -0.38528,0.86 -0.86,0.86zM132.10804,69.92488c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-3.44c0,-0.47472 0.38528,-0.86 0.86,-0.86c0.47472,0 0.86,0.38528 0.86,0.86v3.44c0,0.47472 -0.38528,0.86 -0.86,0.86z"
+                          fill="#ffffff"
+                        ></path>
+                        <path
+                          d="M111.46804,92.83528v17.50788h-10.32l-0.14276,-17.35824c0,-4.39632 -2.00036,-7.51984 -5.94432,-7.51984c-3.01172,0 -4.79536,2.01584 -5.58656,3.97148c-0.2838,0.69488 -0.36636,1.67356 -0.36636,2.65224v18.25436h-10.45244c0,0 0.14104,-29.61668 0,-32.68h10.45244v5.04476c-0.02408,0.03784 -0.04644,0.0774 -0.07052,0.11524h0.07052v-0.11524c1.4534,-2.4252 4.10564,-5.25116 9.89344,-5.25116c7.16896,-0.01204 12.46656,4.45652 12.46656,15.37852zM66.779,62.2554c-3.22844,0 -5.33372,2.21364 -5.33372,5.12388c0,2.84488 2.04336,5.12388 5.2116,5.12388h0.06192c3.29036,0 5.33372,-2.279 5.33372,-5.12388c-0.07224,-2.90852 -2.0554,-5.12388 -5.27352,-5.12388zM61.58804,110.34488h10.32v-32.68h-10.32z"
+                          fill="#fdfcee"
+                        ></path>
+                        <path
+                          d="M111.46804,111.20488h-10.32c-0.47128,0 -0.85656,-0.38012 -0.86,-0.85312l-0.14276,-17.35824c0,-2.00896 -0.49536,-6.66672 -5.08432,-6.66672c-3.06848,0 -4.37052,2.40112 -4.78848,3.43484c-0.20124,0.49364 -0.30272,1.27796 -0.30272,2.32888v18.25436c0,0.47472 -0.38528,0.86 -0.86,0.86h-10.45416c-0.22876,0 -0.44892,-0.09116 -0.60888,-0.25284c-0.15996,-0.16168 -0.25112,-0.38184 -0.25112,-0.6106c0.00172,-0.29584 0.13932,-29.62872 0,-32.637c-0.01032,-0.23392 0.07396,-0.4644 0.23736,-0.63296c0.1634,-0.17028 0.387,-0.2666 0.62264,-0.2666h10.45244c0.47472,0 0.86,0.38528 0.86,0.86v2.4596c2.21536,-2.37532 5.28212,-3.50536 9.06612,-3.526c3.76336,0 6.82496,1.14896 9.09536,3.41592c2.7864,2.78124 4.19852,7.095 4.19852,12.82432v17.50788c0,0.473 -0.38528,0.85828 -0.86,0.85828zM102.00116,109.48488h8.60688v-16.64788c0,-5.2546 -1.24356,-9.159 -3.69456,-11.60656c-1.935,-1.93328 -4.58724,-2.91196 -7.88104,-2.91196c-0.01032,0 -0.01892,0 -0.02924,0c-5.5298,0 -7.84492,2.67804 -9.10224,4.74032c-0.129,0.34228 -0.43516,0.62608 -0.79292,0.62608c-0.31132,0 -0.63296,-0.16856 -0.78604,-0.4386c-0.13244,-0.23564 -0.172,-0.516 -0.07396,-0.75852v-3.96288h-8.71008c0.09116,5.20644 0.00172,26.32116 -0.01892,30.96h8.729v-17.39608c0,-1.29516 0.14104,-2.26868 0.43,-2.97732c1.14036,-2.8208 3.52772,-4.5064 6.3812,-4.5064c4.1968,0 6.80432,3.21124 6.80432,8.38156zM71.90804,111.20488h-10.32c-0.47472,0 -0.86,-0.38528 -0.86,-0.86v-32.68c0,-0.47472 0.38528,-0.86 0.86,-0.86h10.32c0.47472,0 0.86,0.38528 0.86,0.86v32.68c0,0.47472 -0.38528,0.86 -0.86,0.86zM62.44804,109.48488h8.6v-30.96h-8.6zM66.71708,73.36488c-3.57932,0 -6.1318,-2.51636 -6.1318,-5.98388c0,-3.46752 2.6058,-5.98388 6.19544,-5.98388c3.52256,0 6.0458,2.45272 6.1318,5.96324c0,3.48816 -2.6058,6.00452 -6.19544,6.00452zM66.779,63.1154c-2.63504,0 -4.47544,1.7544 -4.47544,4.26388c0,2.50948 1.79052,4.26388 4.3516,4.26388c2.69524,0 4.53564,-1.7544 4.53564,-4.26388c-0.06364,-2.58172 -1.79568,-4.26388 -4.4118,-4.26388z"
+                          fill="#ffffff"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+
+              <h3 class="logo-name">RTBAnalytica</h3>
+            </div>
+          </div>
+
+          <div
+            class="
+              col-lg-4 col-md-4 col-12
+              footerdiv
+              list-footer-div
+              text-white
+              footer-right
+            "
+          >
+            <h3>Offerrings :</h3>
+            <ul>
+              <li>
+                <a href="../pages/offerrings/analytics-and-ds.html"
+                  >Analytics & Data Science</a
+                >
+              </li>
+              <li>
+                <a href="../pages/offerrings/publishers.html">Publishers</a>
+              </li>
+              <li>
+                <a href="../pages/offerrings/advertisers.html">Advertisers</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="
+              col-lg-4 col-md-4 col-12
+              footerdiv
+              list-footer-div
+              text-white
+              footer-right
+            "
+          >
+            <h3>Company :</h3>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../pages/contact-us.html">Contact us</a></li>
+              <li><a href="../pages/about-us.html">About us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-white copyright-section">
+        <p class="copyright-text">
+          Copyright <i class="fa fa-copyright" aria-hidden="true"></i>2021 All
+          rights reserved
+        </p>
+      </div>
+      <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topfunction()" id="scrollbtn"></i>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="../public/js/main.js"></script>
+    <script src="../public/js/particles.js"></script>
+    <script src="../public/js/app.js"></script>
+  </body>
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-PCD73QH"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden"
+    >
+    </iframe>
+  </noscript>
 </html>
